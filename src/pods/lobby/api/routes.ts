@@ -1,7 +1,8 @@
 import { Room } from "./model";
 
 // TODO: move to some setting/env place
-const baseUrl = 'http://localhost:3000';
+// const baseUrl = 'http://localhost:3000';
+const baseUrl = '';
 const baseApi = `${baseUrl}/api`;
 
 export const roomsUrl = `${baseApi}/rooms`;
